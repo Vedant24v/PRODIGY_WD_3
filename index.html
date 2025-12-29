@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Neon Tic-Tac-Toe | Vedant Vyawhare</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="background-grid"></div>
+    
+    <nav>
+      <div class="logo">NEON-TOE</div>
+      <div class="dev-tag">By Vedant Vyawhare</div>
+    </nav>
+    
+    <div class="main-wrapper">
+      <div class="scoreboard">
+          <div class="score-box">X: <span id="x-score">0</span></div>
+          <div class="score-box">Draws: <span id="draw-score">0</span></div>
+          <div class="score-box">O: <span id="o-score">0</span></div>
+      </div>
+
+      <div class="gamecontainer">
+        <div class="container grid-board">
+          <div class="box"><span class="boxtext"></span></div>
+          <div class="box"><span class="boxtext"></span></div>
+          <div class="box"><span class="boxtext"></span></div>
+          <div class="box"><span class="boxtext"></span></div>
+          <div class="box"><span class="boxtext"></span></div>
+          <div class="box"><span class="boxtext"></span></div>
+          <div class="box"><span class="boxtext"></span></div>
+          <div class="box"><span class="boxtext"></span></div>
+          <div class="box"><span class="boxtext"></span></div>
+        </div>
+
+        <div class="gameInfo glass-panel">
+          <h1 class="glow-title">ARENA</h1>
+          <div class="status-box">
+            <span class="info">Turn for X</span>
+          </div>
+          <div class="buttons">
+            <button id="modeBtn" class="neon-btn red">PvP Mode</button>
+            <button id="reset" class="neon-btn blue">Reset Arena</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
